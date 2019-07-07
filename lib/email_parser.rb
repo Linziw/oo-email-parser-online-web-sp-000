@@ -16,3 +16,4 @@ attr_accessor :emails
   end
 
 end
+end

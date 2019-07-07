@@ -11,9 +11,8 @@ attr_accessor :emails
   end
 
   def parse
-  new_array = @emails.split
-  new_array.collect {|email| email.split(",")}.flatten.uniq
+    new_array = @emails.split
+    new_array.collect{|email| email.split(",")}.flatten.uniq
   end
 
-end
 end
